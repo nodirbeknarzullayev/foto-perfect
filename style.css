@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: beige;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.container {
+    min-width: 90%;
+    min-height: 100vh;
+    box-shadow: 5px 0 15px rgba(0,0,0,0.2);
+    padding: 20px 80px;
+}
+
+
+nav {
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    column-gap: 2rem;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(108,105,105);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* MAIN STYLE*/
+
+main {
+    margin-top: 60px;
+   
+    min-height: 80vh;
+}
+
+main h3 {
+    font-size: 25px;
+    color: rgb(51,41,63);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+main .btn-group {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+main .btn-group a {
+    text-decoration: none;
+
+}
+
+main .btn-group a button {
+    padding: 6px 10px;
+    background-color: transparent;
+    border: 1px solid rgb(186, 142, 75);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main .btn-group a button.active {
+    background-color: rgb(186, 142, 75);
+    color: #fff;
+}
+
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem 2rem;
+    margin-top: 30px;
+}
+
+.images img {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
